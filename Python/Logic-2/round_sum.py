@@ -12,10 +12,9 @@ def round10(num):
      if num>5 or num==5:
       num = 10
      else:
-       num =0
+       num = 0
     else:
      a = num%10
-     b = num/10
      if a<5:
        while(a!=0):
          num = num -1
